@@ -13,7 +13,7 @@ library(sp)
 library(tmap)
 library(tmaptools)
 ```
-
+https://github.com/fzc961020/2021Rtry.git
 # Read Data
 ```{r message=FALSE, warning=FALSE}
 mycsv <- read_csv('Gender Inequality Index (GII)_only2.csv',na = c("..", "NA"))
@@ -44,5 +44,7 @@ tmap_mode('plot')
 worldmap%>%
   qtm(.,fil='diff')
 ```
-
+git remote add origin https://github.com/fzc961020/20211029test.git
+git branch -M main
+git push -u origin main
 
